@@ -1,0 +1,153 @@
+name: facilpay
+description: "A Revolutionary Messaging and Payment Platform written in Flutter."
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.1.0-113.0.dev <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  smooth_page_indicator: ^1.2.0+3
+  flutter_svg: ^2.1.0
+  flutter_native_splash: ^2.4.4
+  gap: ^3.0.1
+  flutter_screenutil: ^5.9.3
+  circle_nav_bar: ^2.1.1
+  curved_navigation_bar: ^1.0.6
+  floating_bottom_bar: ^0.0.3
+  animated_bottom_navigation_bar: ^1.3.3
+  country_picker: ^2.0.27
+  qr_flutter: ^4.1.0
+  flutter_riverpod: ^2.6.1
+  riverpod_annotation: ^2.6.1
+  equatable: ^2.0.7
+  dio: ^5.4.0
+  web_socket_channel:
+  infinite_scroll_pagination: ^5.0.0
+  url_launcher: ^6.2.2
+  intl:
+  intl_phone_field: ^3.2.0
+  material_design_icons_flutter: ^7.0.7296
+  dropdown_search: ^6.0.1
+  bot_toast: ^4.1.3
+  bip39: ^1.0.6
+  crypto: ^3.0.6
+  web3dart: ^2.7.3
+  hive:
+  shimmer: ^3.0.0
+  flutter_contacts:
+  sign_in_with_apple: ^6.1.4
+  # flutter_facebook_auth: ^7.1.1
+  google_sign_in: ^6.2.2
+  phone_numbers_parser: ^9.0.3
+  encrypt: ^5.0.3
+  pinput: ^5.0.0
+  shared_preferences: ^2.4.0
+  simple_gradient_text: ^1.3.0
+  qr_code_scanner_plus:
+  azlistview:
+  alphabet_list_view: ^1.1.4
+  fl_chart: ^0.63.0
+  awesome_card: ^1.1.7
+  flutter_native_contact_picker: ^0.0.10
+  firebase_core: ^3.12.0
+  firebase_messaging: ^15.2.3
+  flutter_local_notifications: ^18.0.1
+  dart_bip32: ^2.0.5
+  cached_network_image: ^3.4.1
+  number_text_input_formatter: ^1.0.0+8
+  http:
+  flutter_dotenv:
+    ^5.1.0
+    # aws_s3_upload_lite:
+  #   path: /Users/avour/Desktop/Code/aws_s3_upload_lite
+  # git:  # added support for null safety, via a custom fork
+  #   url: https://github.com/avour/aws_s3_upload_lite
+  image_picker:
+  path:
+  mime:
+  flutter_switch: ^0.3.2
+  infinite_grouped_list: ^1.2.9
+  emoji_picker_flutter: ^4.3.0
+  croppy: ^1.3.6
+  swipe_to: ^1.0.6
+  device_info_plus: ^11.3.3
+  popover:
+  focused_menu:
+  readmore: ^3.0.0
+  flutter_inappwebview: ^6.1.5
+  solana: ^0.31.2+1
+  ed25519_hd_key: ^2.3.0
+  giphy_get: ^3.6.1
+  extended_image: ^10.0.1
+  animate_icons: ^2.0.0
+  sliver_tools: ^0.2.12
+  fluttertagger: ^2.3.1
+  modal_bottom_sheet: ^3.0.0-pre
+  flutter_form_builder: ^10.0.1
+  form_builder_validators: ^11.1.2
+  form_builder_phone_field: ^3.0.0
+  webview_flutter:
+  path_provider: ^2.1.5
+  animated_list_plus: ^0.5.2
+  base58check: ^2.0.0
+  stellar_asset_lists: ^1.0.4
+  stellar_flutter_sdk: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  riverpod_generator: ^2.6.3
+  build_runner: ^2.4.13
+  custom_lint: ^0.7.0
+  riverpod_lint: ^2.6.3
+  mocktail: ^1.0.0
+  flutter_launcher_icons: ^0.14.3
+
+# Configurations
+flutter_launcher_icons:
+  image_path: "assets/images/app_logo.png"
+  android: true
+  ios: true
+  remove_alpha_ios: true
+
+flutter_native_splash:
+  color: "#2073F2"
+  background_image: "assets/images/splash_background.png"
+  image: assets/images/icon_white.png
+  android_12:
+    color: "#2073F2"
+    image: assets/images/icon_white.png
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    # - .env
+    - lib/images/
+    - assets/images/
+    - assets/icons/
+    - assets/svgs/more_icons/
+    - assets/active_navbar_icon/
+    - assets/inactive_navbar_icon/
+
+  fonts:
+    - family: SFProDisplay
+      fonts:
+        - asset: assets/fonts/SF-Pro-Display-Light.otf
+          weight: 300
+        - asset: assets/fonts/SF-Pro-Display-Regular.otf
+          weight: 400
+        - asset: assets/fonts/SF-Pro-Display-Medium.otf
+          weight: 500
+        - asset: assets/fonts/SF-Pro-Display-SemiBold.otf
+          weight: 600
+        - asset: assets/fonts/SF-Pro-Display-Bold.otf
+          weight: 700
